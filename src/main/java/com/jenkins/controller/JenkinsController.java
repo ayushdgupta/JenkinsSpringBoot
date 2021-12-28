@@ -23,6 +23,7 @@ public class JenkinsController {
 	public String jenkinCall()
 	{
 		logger.info("Application Executed.....");
+		logger.info("Application Executed for 2nd time.....");
 		System.out.println("jenkins called this API");
 		return "Jenkin API Called";
 	}
