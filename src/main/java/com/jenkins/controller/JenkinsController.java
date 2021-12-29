@@ -14,7 +14,7 @@ public class JenkinsController {
 	Logger logger = LoggerFactory.getLogger(JenkinsController.class);
 	
 	@PostConstruct
-	public init()
+	public void init()
 	{
 		logger.info("Application Started.....");
 		logger.info("Application Started for 2nd time.....");
