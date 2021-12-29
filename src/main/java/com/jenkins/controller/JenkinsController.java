@@ -18,6 +18,7 @@ public class JenkinsController {
 	{
 		logger.info("Application Started.....");
 		logger.info("Application Started for 2nd time.....");
+		logger.info("Application Started for 3rd time.....");
 	}
 	
 	@GetMapping("/jenkinsdata")
