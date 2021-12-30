@@ -17,7 +17,7 @@ public class JenkinsController {
 	public void init()
 	{
 		logger.info("Application Started.....");
-		logger.info("Application Started for 2nd time.....");
+//		logger.info("Application Started for 2nd time.....");
 		logger.info("Application Started for 3rd time.....");
 		logger.info("Application Started for 4th time for PIPELINE.....");
 	}
