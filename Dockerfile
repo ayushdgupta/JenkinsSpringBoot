@@ -1,4 +1,4 @@
 FROM openjdk:11
-EXPOSE 8080
-ADD target/Jenkins-0.0.1-SNAPSHOT.jar Jenkins-0.0.1-SNAPSHOT.jar
-ENTRYPOINT ["java","-jar","/Jenkins-0.0.1-SNAPSHOT.jar"]
+EXPOSE 8081
+ADD target/spring-boot-docker-demo.jar spring-boot-docker-demo.jar
+ENTRYPOINT ["java","-jar","/spring-boot-docker-demo.jar"]
