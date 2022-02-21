@@ -27,7 +27,8 @@ public class JenkinsController {
 	{
 		logger.info("Application Executed.....");
 		logger.info("Application Executed for 2nd time.....");
-		System.out.println("jenkins called this API");
+		System.out.println("jenkins call this API");
+		System.out.println("Pipeline demo");
 		return "Jenkin API Called";
 	}
 }
